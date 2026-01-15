@@ -73,11 +73,18 @@ const Hero = () => {
             {/* Call to Action Buttons */}
             <div className='flex flex-wrap gap-4 animate-fade-in animate-delay-300'>
               <Button size="lg">
-                Contact Me <ArrowRight className='w-5 h-5' />
+                <a href="#contact">
+                  Contact Me </a><ArrowRight className='w-5 h-5' />
               </Button>
               <AnimatedBorderButton>
-                <Download className='w-5 h-5' />
-                Download CV
+                <a
+                  href="/MEA/CV.docx"
+                  download
+                  className='flex items-center gap-2'
+                >
+                  <Download className='w-5 h-5' />
+                  Download CV
+                </a>
               </AnimatedBorderButton>
             </div>
 
