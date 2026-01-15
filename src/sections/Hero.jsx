@@ -21,7 +21,7 @@ const Hero = () => {
     <section className='realative min-h-screen flex items-center overflow-hidden '>
       {/* Background Image */}
       <div className='absolute inset-0'>
-        <img src="/hero-bg.jpg" alt="Hero Image" className='w-full h-full object-cover opacity-40' />
+        <img src="/MEA/hero-bg.jpg" alt="Hero Image" className='w-full h-full object-cover opacity-40' />
         <div className='absolute inset-0 bg-linear-to-b from-[#0f1418]/20 via-[#0f1418]/80 to-[#0f1418] '></div>
       </div>
 
@@ -107,7 +107,7 @@ const Hero = () => {
 
               <div className='relative glass rounded-3xl p-2 glow-border'>
 
-                <img src="/profile-photo.jpeg" alt="Nezo" className='w-full aspect-4/5 object-cover rounded-2xl' />
+                <img src="/MEA/profile-photo.jpeg" alt="Nezo" className='w-full aspect-4/5 object-cover rounded-2xl' />
 
                 {/* Floating Badge */}
                 <div className='absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float'>

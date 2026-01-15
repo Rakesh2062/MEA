@@ -6,7 +6,7 @@ const projects = [
   {
     title: "School Management System",
     desc: "Developed a web-based system to manage student records, staff data, attendance, exams, and academic reposrts. Implemented secure login, role-based access, and real-time updates to streamline school administration. The system improved operational efficiency and provided a scalable solution for educational institutions.",
-    image: "/projects/project-1.png",
+    image: "/MEA/projects/project-1.png",
     tags: ["PHP", "MySQL", "HTML", "CSS"],
     link: "#",
     github: "#"
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Facial Emotion Recognition using concolutional Neural Network",
     desc: "Developed a CNN-based system to detect and classify human emotions from facial expressions in images. Trained on labeled emotion datasets to recognize expressions such as happy, sa, angry, surprised, and neutral. Utilized OpenCV for real-time face detection and image capture, and implemented the model using TensorFlow and Keras. Achieved reliable emotion classification performance, with applications in human-computer interaction, mental health assessment, and smart surveillance systems.",
-    image: "/projects/project-2.jpg",
+    image: "/MEA/projects/project-2.jpg",
     tags: ["Python", "OpenCV", "TensorFlow", "Keras", "Convolutional Neural Networks (CNN)"],
     link: "#",
     github: "#"
@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Speech Emotion Recognition Using Hybrid Deep Learning Models",
     desc: "Designed and implemented a hybrid deep learning model combining CNN and LSTM to classify emotions from speech signals. Extracted MFCCs and time-domaiin features using LibROSA, and trained the model on the RAVDESS dataset to detect emotions such as happy, sad, angry, and neutral. Achieved high classification accuracy, demonstrating strong applicability in voice-based intelligent systems, virtual assistants, and emotion-aware technologies",
-    image: "/projects/project-3.png",
+    image: "/MEA/projects/project-3.png",
     tags: ["Python", "LibROSA", "TensorFlow", "Keras", "CNN", "LSTM", "MFCC", "Matplotlib", "Scikit-learn"],
     link: "#",
     github: "#"
