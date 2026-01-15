@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/MEA/",   // ✅ add this line
+  base: "/MEA/", 
   plugins: [tailwindcss(), react()],
   resolve: {
     alias: {
