@@ -5,6 +5,9 @@ import About from '@/sections/About'
 import Projects from '@/sections/Projects'
 import Experience from '@/sections/Experience'
 import Contact from '@/sections/Contact'
+import Education from '@/sections/Education' 
+import Publications from '@/sections/Publications'  
+
 function App() {
 
   return (
@@ -15,7 +18,9 @@ function App() {
           <Hero />
           <About />
           <Projects />
+          <Education />
           <Experience />
+          <Publications />
           <Contact />
         </main>
       </div>

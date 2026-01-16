@@ -14,19 +14,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "rs9800411@example.com",
-    href: "mailto:rs9800411@example.com",
+    value: "malnazeer177@gmail.com",
+    href: "mailto:malnazeer177@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+249915243415",
+    href: "tel:+249915243415",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Sharq alneel, Khartoum, Sudan",
     href: "#",
   },
 ];
