@@ -58,17 +58,12 @@ const Publications = () => {
           </span>
 
           <h2 className="text-4xl md:text-5xl font-bold mt-4 animate-fade-in animation-delay-100 text-[#20b2a6]">
-            Publications that{" "}
+            Publications & {" "}
             <span className="font-serif italic font-normal text-white">
-              speak rigor.
+              Communication Papers.
             </span>
           </h2>
 
-          <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A collection of peer-reviewed publications and communicated papers
-            reflecting my research contributions in deep learning and
-            human-centered systems.
-          </p>
         </div>
 
         {/* Publications Grid */}
