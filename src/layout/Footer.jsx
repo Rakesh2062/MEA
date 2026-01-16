@@ -63,7 +63,7 @@ const Footer = () => {
 
        {/* Bottom Line */}
 <div className="mt-12 pt-6 border-t border-[#20b2a6]/10 text-center text-xs text-[#7a8491]">
-  © {new Date().getFullYear()} Elmamoon. Powered by{" "}
+  © {new Date().getFullYear()} Mohammed Elnazer Abazar. Powered by{" "}
   <span className="font-semibold text-[#20b2a6]">
    <a href='https://mukeshpandey.com.np'>DeepQNova Pvt. Ltd.</a>
   </span>
