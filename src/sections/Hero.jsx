@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@/components/Button'
-import { ArrowRight, Linkedin, Github, Twitter, ChevronDown, Download } from 'lucide-react'
+import { ArrowRight, Linkedin, Github, Twitter, ChevronDown, Download, Facebook, Youtube } from 'lucide-react'
 import AnimatedBorderButton from '../components/AnimatedBorderButton'
 
 const skills = [
@@ -93,11 +93,13 @@ const Hero = () => {
               <span className='text-sm text-[#7a8491]'>Follow Me: </span>
               {[
                 { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/mohammed-elnazer-abazar-elmamoon-ball-elsheep-0a4397194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+                { icon: Facebook, href: "https://www.facebook.com/share/16f4iS5Hre/" },
+                { icon: Youtube, href: "https://www.youtube.com/@mohammedalnazeer3822" },
               ].map((social, idx) => (
                 <a
                   key={idx}
+                  target='_blank'
                   href={social.href}
                   className='p-2 rounded-full glass hover:bg-[#20b2a6]/10 hover:text-[#20b2a6] transition-all duration-300'
                 >{<social.icon className='w-5 h-5' />}</a>

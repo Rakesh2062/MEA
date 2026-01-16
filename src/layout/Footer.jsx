@@ -1,5 +1,5 @@
 import React from "react"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Facebook, Github, Linkedin, Mail, Youtube } from "lucide-react"
 
 const Footer = () => {
   return (
@@ -42,6 +42,22 @@ const Footer = () => {
               className="w-10 h-10 rounded-xl bg-[#20b2a6]/10 flex items-center justify-center hover:bg-[#20b2a6]/20 transition"
             >
               <Github className="w-5 h-5 text-[#20b2a6]" />
+            </a>
+
+            <a
+              href="https://www.facebook.com/share/16f4iS5Hre/"
+              target="_blank"
+              className="w-10 h-10 rounded-xl bg-[#20b2a6]/10 flex items-center justify-center hover:bg-[#20b2a6]/20 transition"
+            >
+              <Facebook className="w-5 h-5 text-[#20b2a6]" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@mohammedalnazeer3822"
+              target="_blank"
+              className="w-10 h-10 rounded-xl bg-[#20b2a6]/10 flex items-center justify-center hover:bg-[#20b2a6]/20 transition"
+            >
+              <Youtube className="w-5 h-5 text-[#20b2a6]" />
             </a>
 
             <a
