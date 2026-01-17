@@ -66,7 +66,7 @@ const Hero = () => {
               <p
                 className='text-lg text-[#7a8491] max-w-lg animate-fade-in animation-delay-200'
               >
-                Hi, I'm Mohammed Elnazer Abazar - a fullstack developer specializing in React, Node.js, and modern web technologies. I build scalable, seamless and efficient web applications that deliver exceptional user experiences.
+                Hi, I'm Mohammed Elnazer Abazar - a Deep Learning Researcher and Frontend Developer with proven project experience and strong expertise in Prompt Engineering..
               </p>
             </div>
 
