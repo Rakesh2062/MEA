@@ -42,22 +42,16 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-[#7a8491] animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I am a Computer Science candidate with a strong academic and practical interest in deep learning, machine learning, and intelligent system development. My passion lies in understanding data-driven models and applying them to solve real-world problems through research and experimentation.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I have hands-on experience with Python, deep learning frameworks, and the full lifecycle of designing, training, evaluating, and optimizing deep learning models. I am also familiar with research methodologies, including dataset preparation, experimental analysis, and research paper writing.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                In addition to my focus on AI and research, I possess solid knowledge of frontend development, enabling me to design and integrate intuitive user interfaces with intelligent systems. This allows me to bridge the gap between advanced AI models and practical applications.
+              </p>
+              <p>
+                As a motivated and growth-oriented candidate, I continuously explore emerging technologies, strengthen my technical expertise, and engage in academic and personal projects that combine computer science, artificial intelligence, and software engineering.
               </p>
             </div>
 
