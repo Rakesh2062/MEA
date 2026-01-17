@@ -58,12 +58,11 @@ const Publications = () => {
           </span>
 
           <h2 className="text-4xl md:text-5xl font-bold mt-4 animate-fade-in animation-delay-100 text-[#20b2a6]">
-            Publications & {" "}
+            Publications &{" "}
             <span className="font-serif italic font-normal text-white">
               Communication Papers.
             </span>
           </h2>
-
         </div>
 
         {/* Publications Grid */}
@@ -71,11 +70,13 @@ const Publications = () => {
           {publications.map((paper, idx) => (
             <div
               key={idx}
-              className="glass p-6 rounded-2xl animate-fade-in"
+              className="group relative glass p-6 rounded-2xl animate-fade-in transition-all duration-300
+                         hover:-translate-y-3 hover:border-[#20b2a6]/40
+                         hover:shadow-[0_25px_50px_rgba(0,255,200,0.12)]"
               style={{ animationDelay: `${(idx + 1) * 100}ms` }}
             >
               {/* Icon */}
-              <div className="w-12 h-12 rounded-xl bg-[#20b2a6]/10 flex items-center justify-center mb-4 hover:bg-[#20b2a6]/20 transition">
+              <div className="w-12 h-12 rounded-xl bg-[#20b2a6]/10 flex items-center justify-center mb-4 transition">
                 <paper.icon className="w-6 h-6 text-[#20b2a6]" />
               </div>
 
@@ -111,6 +112,10 @@ const Publications = () => {
                   {paper.status}
                 </span>
               </div>
+
+              {/* Hover glow overlay (same as Skills) */}
+              <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition pointer-events-none
+                              bg-linear-to-br from-[#20b2a6]/10 to-transparent" />
             </div>
           ))}
         </div>
