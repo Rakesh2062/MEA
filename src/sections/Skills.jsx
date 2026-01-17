@@ -50,7 +50,7 @@ export default function SkillsSection() {
   return (
     <section
       id="skills"
-      className="relative py-28 px-6 md:px-16 text-white overflow-hidden"
+      className="relative py-20 px-6 md:px-16 text-white overflow-hidden"
     >
       {/* Background glow */}
       <div className="absolute inset-0 -z-10">

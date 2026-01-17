@@ -31,7 +31,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id='projects' className='py-32 relative overflow-hidden'>
+    <section id='projects' className='py-20 relative overflow-hidden'>
       {/* BG Glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-[#20b2a6]/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-[#f5a623]/5 rounded-full blur-3xl" />

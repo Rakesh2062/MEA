@@ -13,7 +13,7 @@ const Experience = () => {
   ]
 
   return (
-    <section id="experience" className='py-32 relative overflow-hidden'>
+    <section id="experience" className='py-20 relative overflow-hidden'>
       <div
         className='absolute top-1/2 left-1/4 w-96 h-96 bg-[#20b2a6]/5 rounded-full blur-3xl -translate-y-0.5'
       />
