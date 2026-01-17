@@ -133,7 +133,7 @@ const Hero = () => {
 
         </div>
 
-        {/* Skills List */}
+        {/* Skills List
         <div className='mt-20 animate-fade-in animation-delay-600'>
           <p className='text-sm text-center text-[#7a8491] mb-6'>
             Skills I know
@@ -147,7 +147,7 @@ const Hero = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Scroll Indicator */}
         <div
           className="absolute bottom-8 left-1/2 -translate-x-1/2 
